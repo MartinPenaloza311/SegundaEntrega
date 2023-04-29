@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.logo {
+    height: 70%;
+}
+
+header {
+    background-color: rgb(151, 141, 141);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 30px 0px 30px;
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PT Sans;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list {
+    gap: 30px;
+}
+
+.navbar {
+    gap: 150px;
+}
+
+.navbar-list a {
+    color: rgb(22, 19, 19);
+    font-weight: 600;
+}
+
+.navbar-list li:first-child > a {
+    color: rgb(14, 4, 4);
+    font-weight: 600;
+}
